@@ -12,16 +12,16 @@ Informs how many bytes were used by a subscriber on a given time.
 Consists of a POST request, passing a JSON payload:
 ```
 {
-    subscriberId" : 5420123,
-    amount: 1024000,
-    timestamp: "2018-06-04T20:30:00.000-04:00"
+    "subscriberId" : 5420123,
+    "amount": 1024000,
+    "timestamp": "2018-06-04T20:30:00.000-04:00"
 }
 ```
 
 And returns a JSON response:
 ```
 {
-    status: "success"
+    "status": "Success"
 }
 ```
 
@@ -33,19 +33,19 @@ Consists of a POST request, passing a JSON payload:
 
 ```
 {
-    subscriberId: 1023595
+    "subscriberId": 1023595
 }
 ```
 
 And returns a JSON response:
 ```
 {
-  totalUsage: 2000000,
-	day: "2018-06-04"
+  "totalUsage": 2000000,
+  "day": "2018-06-04"
 },
 {
-  totalUsage: 1000000,
-	day: "2018-06-05"
+  "totalUsage": 1000000,
+   "day": "2018-06-05"
 }
 ```
 
