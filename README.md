@@ -7,7 +7,7 @@ They asked Openet to develop a system providing two APIs:
 
 ## reportUsage
 
-Informs how many bytes were used by a subscriber on a given time.
+Report how many bytes were used by a subscriber on a given time.
 
 Consists of a POST request, passing a JSON payload:
 ```
