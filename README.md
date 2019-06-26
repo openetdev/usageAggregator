@@ -50,7 +50,7 @@ And returns a JSON response:
 ```
 
 ## Instructions
-1. Feel free to use any coding language, database and open source libraries/frameworks (preferably Java with Spring Framework)
+1. Use Java with Spring Framework to implement the APIs described above
 2. Send a github project link with your submission
 3. Add in your README.md file: 
   - instructions on how to run the application, including database setup and configuration (if applicable)
