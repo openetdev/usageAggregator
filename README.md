@@ -27,7 +27,7 @@ And returns a JSON response:
 
 ## getAggregatedUsage
 
-Returns a list of total usages per day, for all days that had any usage for the given subscriber
+Returns a list of total usages per day (aggregated, one entry per day), for all days that had any usage for the given subscriber.
 
 Consists of a POST request, passing a JSON payload:
 
@@ -50,8 +50,8 @@ And returns a JSON response:
 ```
 
 ## Instructions
-1. Feel free to use any coding language, database and open source libraries/frameworks
+1. Feel free to use any coding language, database and open source libraries/frameworks (preferably Java with Spring Framework)
 2. Send a github project link with your submission
-3. Add in your README: 
-  - instructions on how to run the application
+3. Add in your README.md file: 
+  - instructions on how to run the application, including database setup and configuration (if applicable)
   - any assumptions you took while developing your application
